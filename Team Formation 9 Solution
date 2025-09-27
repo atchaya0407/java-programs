@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int totalPlayers = sc.nextInt();
+        int playersPerTeam = sc.nextInt();
+        int total_team = totalPlayers / playersPerTeam;
+        int left_out = totalPlayers % playersPerTeam;
+        System.out.println("Total teams formed: "+total_team);
+        System.out.println("Players left out: "+left_out);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
